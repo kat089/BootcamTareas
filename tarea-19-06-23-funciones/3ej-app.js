@@ -3,7 +3,7 @@
 
   
 
-function generar_caracteres(numero,char){
+function generar_caracteres(numero,char){ 
 
     
     console.log(char.repeat(numero))
