@@ -28,10 +28,10 @@ console.log(terceroOl);
 contenedor.textContent = '¡Hola!';
 
 const nuevaClasePieDePagina = document.querySelector('.footer');
-nuevaClasePieDePagina.classList.add('nav');
+nuevaClasePieDePagina.classList.add('main');
 console.log(nuevaClasePieDePagina);
 
-nuevaClasePieDePagina.classList.remove('nav');
+nuevaClasePieDePagina.classList.remove('main');
 console.log(nuevaClasePieDePagina);
 
 const elementoNuevoLi = document.createElement('li');
