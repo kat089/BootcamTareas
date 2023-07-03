@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>formulario :D</title>
+</head>
+<!--Crear una página HTML para el registro para una audición musical. La página debe tener:
+Formulario de registro con inputs para nombre, apellido, dirección del participante, tipo de música y si necesita un instrumento y un botón de “enviar”.
+Título e imagen superior alusiva.
+Debe ser responsivo.
+
+-->
+<body class="mx-auto p-2" style="width: 80%;">
+    <header>
+        <div class="jumbotron" style="background-image: url('src/patron.jpg'); background-size: cover; background-position: center;">
+            <h1 class="text-center text-primary fw-bold fs-1">Formulario</h1>
+          </div>
+    </header>
+ <div class="container-fluid card bg-success-subtle text-center d-flex  " > 
+    <fieldset>
+        <legend> </legend>
+        <div><input class="shadow p-3 mb-5 bg-body-tertiary rounded" type="text" placeholder="Nombre"></div>
+        <div><input  class="shadow p-3 mb-5 bg-body-tertiary rounded"  type="text" placeholder="Apellido"></div>
+        <div><input class="shadow p-3 mb-5 bg-body-tertiary rounded" type="text" placeholder="dirección del participante"></div>
+
+        <fieldset class=" container-m shadow p-3 mb-5 bg-body-tertiary rounded">
+            <legend>Tipo de musica</legend>
+            <label>Música clásica</label>
+            <input type="checkbox" name="musica" value="Música clásica">
+            <label>Jazz</label>
+            <input type="checkbox" name="musica" value="Jazz">
+            <laber>Soul</laber>
+            <input type="checkbox" name="musica" value="Soul">
+
+        </fieldset>
+        
+        
+        <div class="shadow p-3 mb-5 bg-body-tertiary rounded"><label>Necesita un instrumento</label><input type="radio"></div>
+
+        <button type="button" class="btn btn-primary shadow p-3 mb-5 ">Enviar</button>
+        <div> <img src="src/R.jpg" alt="banda" class="rounded mx-auto d-block shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 400px"></div>
+    </fieldset>
+ </div>
+    
+</body>
+</html>

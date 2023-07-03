@@ -1,0 +1,43 @@
+* {
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+#main {
+    background-color: grey;
+    align-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.alerta {
+    background-color: #EAD2D5;
+    color: #72353D;
+}
+
+div.blue {
+    height: 200px;
+    background-color: blue;
+    padding: 20px;
+    width: 50%;
+    border-radius: 50px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+
+div.red {
+    height: 200px;
+    background-color: red;
+    padding: 20px;
+    width: 50%;
+    border-radius: 50px;
+    border: 2px solid black;
+    display: inline-block;
+   
+}

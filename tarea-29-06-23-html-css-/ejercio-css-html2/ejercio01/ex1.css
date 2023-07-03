@@ -1,0 +1,22 @@
+* {
+    background-image: linear-gradient(to right, #fa8605 0%, #ae1e88 100%)
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    padding: 30px;
+    color: burlywood;
+}
+
+footer {
+    color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border: 2px solid black;
+    background: none;
+}

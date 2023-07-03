@@ -1,0 +1,23 @@
+* {
+    background-image: linear-gradient(to right, #fa8605 0%, #ae1e88 100%)
+}
+
+span {
+    font-weight: bold;
+    background-image: none;
+}
+
+a {
+    font-weight: bold;
+    background-image: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.gta {
+    position: relative;
+    left: 0%;
+}

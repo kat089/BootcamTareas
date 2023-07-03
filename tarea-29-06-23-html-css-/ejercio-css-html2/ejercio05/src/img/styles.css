@@ -1,0 +1,100 @@
+*{ 
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2px;
+    padding: 1px;
+    text-align: center;
+    text-align-last: center;
+    font-size:x-small
+    
+}
+#fondo{
+    background-image: linear-gradient(to right, #d7ebdb 0%, #9ceaae 100%);
+}
+ header{
+    background-color: rgb(24, 44, 66);
+    border-radius: 10px;
+    border: 2px solid white;
+ }
+h1{
+   
+    font-weight: bold;
+    color: white;
+    font-size: xx-large;
+    
+  
+    
+
+}
+
+#foto{
+    border-radius: 15px;
+    margin: 2px;
+}
+
+h4{
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+#presentacion{
+    padding: 5px;
+    font-style: italic;
+}
+b.title1{
+ text-decoration: underline;
+
+}
+
+p.formacion{
+    text-decoration: underline;
+}
+
+b.title2{
+    text-decoration: underline;
+   }
+
+   b.title3{
+    text-decoration: underline;
+   }
+
+   b.title4{
+    text-decoration: underline;
+   }   
+   b.title5{
+    text-decoration: underline;
+   }
+
+   #educacion{
+    font-style: italic;
+    
+   }
+
+   #pie{
+    color: aliceblue;
+    background-color: rgb(24, 44, 66);
+    border-radius: 10px;
+    border: 2px solid white;
+
+   }
+   a.redSocial1{
+    color: rgb(48, 216, 241);
+    pointer-events: painted;
+   }
+
+   a.redSocial2{
+    color: rgb(48, 216, 241);
+    pointer-events: painted;
+   }
+   hr.contenido{
+    background-color: white;
+   }
+
+   hr.formacion{
+    background-color: white;
+   }
+
+   hr.proyectos{
+    background-color: white;
+
+   }
